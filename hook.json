@@ -1,0 +1,67 @@
+{
+	"args": {},
+	"data": "{\n \"fields\": [\n {\n \"key\": \"eventType\",\n \"value\": \"Attackers\"\n },\n {\n \"key\": \"apiHostAddress\",\n \"value\": \"7.7.7.7\"\n },\n {\n \"key\": \"environmentName\",\n \"value\": \"TEST\"\n },\n {\n \"key\": \"attackerSourceIdentifier\",\n \"value\": \"7.7.7.7\"\n },\n {\n \"key\": \"attackerSourceType\",\n \"value\": \"FIELD\"\n },\n {\n \"key\": \"attemptsNumber\",\n \"value\": \"1\"\n },\n {\n \"key\": \"attackerStatus\",\n \"value\": \"ActionRequired\"\n },\n {\n \"key\": \"attackerUrl\",\n \"value\": \"https://test-url.com\"\n },\n {\n \"key\": \"attackerSeverity\",\n \"value\": \"High\"\n },\n {\n \"key\": \"takeAction\",\n \"value\": \"7.7.7.7\"\n },\n {\n \"key\": \"responseStatusCodes\",\n \"value\": \"200 OK,401 Unauthorized\"\n },\n {\n \"key\": \"attackedEndpoints\",\n \"value\": \"POST /api/v1/user,PUT /api/v1/account\"\n },\n {\n \"key\": \"attackTypes\",\n \"value\": \"OWASP API1 - Potential Broken Object Level Authorization,OWASP API2 - Broken Authentication\"\n },\n {\n \"key\": \"timestamp\",\n \"value\": \"2023-02-04T00:06:00.109Z\"\n },\n {\n \"key\": \"integrationUuid\",\n \"value\": \"63dd8022d2a59c4184a5d940\"\n },\n {\n \"key\": \"attackerId\",\n \"value\": \"63dda168dc873e36f82e12ab\"\n }\n ]\n}",
+	"files": {},
+	"form": {},
+	"headers": {
+		"Content-Length": "1315",
+		"Content-Type": "application/json",
+		"Host": "httpbin.org",
+		"User-Agent": "akka-http/10.1.10",
+		"X-Amzn-Trace-Id": "Root=1-63dda168-433aee6c7ed26af306eaf161"
+	},
+	"json": {
+		"fields": [{
+			"key": "eventType",
+			"value": "Attackers"
+		}, {
+			"key": "apiHostAddress",
+			"value": "7.7.7.7"
+		}, {
+			"key": "environmentName",
+			"value": "TEST"
+		}, {
+			"key": "attackerSourceIdentifier",
+			"value": "7.7.7.7"
+		}, {
+			"key": "attackerSourceType",
+			"value": "FIELD"
+		}, {
+			"key": "attemptsNumber",
+			"value": "1"
+		}, {
+			"key": "attackerStatus",
+			"value": "ActionRequired"
+		}, {
+			"key": "attackerUrl",
+			"value": "https://test-url.com"
+		}, {
+			"key": "attackerSeverity",
+			"value": "High"
+		}, {
+			"key": "takeAction",
+			"value": "7.7.7.7"
+		}, {
+			"key": "responseStatusCodes",
+			"value": "200 OK,401 Unauthorized"
+		}, {
+			"key": "attackedEndpoints",
+			"value": "POST /api/v1/user,PUT /api/v1/account"
+		}, {
+			"key": "attackTypes",
+			"value": "OWASP API1 - Potential Broken Object Level Authorization,OWASP API2 - Broken Authentication"
+		}, {
+			"key": "timestamp",
+			"value": "2023-02-04T00:06:00.109Z"
+		}, {
+			"key": "integrationUuid",
+			"value": "63dd8022d2a59c4184a5d940"
+		}, {
+			"key": "attackerId",
+			"value": "63dda168dc873e36f82e12ab"
+		}]
+	},
+	"method": "POST",
+	"origin": "34.202.43.66",
+	"url": "http://httpbin.org/anything"
+}
